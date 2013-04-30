@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/shalex9154/ApplicationBlocker.git", :tag => '0.0.2'}
   s.source_files = 'ApplicationBlocker.{h,m}'
   s.framework  = 'Security'
-  s.requires_arc = false
+  s.requires_arc = true
 end
